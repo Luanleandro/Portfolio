@@ -1,6 +1,5 @@
 export default function initScrollAnimation() {
   const containers = document.querySelectorAll("[data-anime='scroll']");
-  console.log(containers);
   if (containers.length) {
     const windowMetade = window.innerHeight * 0.6;
 
