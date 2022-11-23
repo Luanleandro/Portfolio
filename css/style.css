@@ -1,0 +1,19 @@
+@import "utilidades/tipografia.css";
+
+@import "global/global.css";
+
+@import "utilidades/componentes.css";
+
+@import "global/header.css";
+
+@import "utilidades/cores.css";
+
+@import "home/introducao.css";
+
+@import "home/sobre.css";
+
+@import "home/habilidades.css";
+
+@import "home/projeto.css";
+
+@import "global/footer.css"

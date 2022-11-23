@@ -1,0 +1,40 @@
+.habilidade-bg {
+  background-color: var(--cor-12);
+  padding-top: 60px;
+  box-shadow: inset 0 -32px var(--cor-11);
+}
+
+.habilidade h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.habilidade li {
+  z-index: 300;
+}
+
+.habilidade ul {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  gap: 60px;
+  position: relative;
+  z-index: 300;
+}
+
+.habilidade ul::before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background-color: var(--cor-p1);
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+@media (max-width: 800px) {
+  .habilidade ul {
+    gap: 30px;
+  }
+}
