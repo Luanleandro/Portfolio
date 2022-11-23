@@ -82,3 +82,9 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
+@media(max-width: 800px) {
+  .introducao-icons a {
+    padding: 12px 30px 8px 30px;
+  }
+}
